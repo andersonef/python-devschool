@@ -8,6 +8,6 @@ It is a text-interface program which allows you to manage students, their notes 
 ## Running
 Just clone this repository and run main.py script, this way:
 
-    git clone git@github.com/andersonef/python-devschool
+    git clone git@github.com:andersonef/python-devschool.git
     cd python-devschool
     python3 main.py 
