@@ -8,7 +8,10 @@ class ModuloCadastro(ModuleInterface):
 
     endereco = Endereco()
 
-    def run(self, app):
+    def setup(self):
+        pass
+
+    def run(self):
         print('================ CADASTRO DE ENDEREÇO =============')
         self.input_cep()
         self.endereco.rua = input('Nome da Rua: ')
